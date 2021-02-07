@@ -35,7 +35,7 @@ function displayGames(results) {
     
 }
 
-// I dont know what I'm doing wrong here. I tried the async method but I got an answer back saying that length was undefined? 
+// I dont know what I'm doing wrong here. I tried the async method but I got an answer back saying that length was undefined? I did not understand that much regarding API headers, so I dont know if the issue is from that? 
 
 
 
