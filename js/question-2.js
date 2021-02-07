@@ -2,10 +2,6 @@ const url = "https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=
 
 let gamesContainer = document.querySelector(".games");
 
-const options = { "headers": {
-    "x-rapidapi-key": "f1f6bf4f35msh6bce51834ab65fep1142d8jsne932f1fff042",
-}};
-
 fetch(url)
  .then(function(response) {
     return response.json();
@@ -35,7 +31,8 @@ function displayGames(results) {
     
 }
 
-// I dont know what I'm doing wrong here. I tried the async method but I got an answer back saying that length was undefined? I did not understand that much regarding API headers, so I dont know if the issue is from that? 
+// I dont know what I'm doing wrong here. I tried the async method but I got an answer back saying that length was undefined? I did not understand that much regarding API headers, so I dont know if the issue is from that?
+// I hope I'm on the right path though.. 
 
 
 
